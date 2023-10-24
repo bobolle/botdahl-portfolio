@@ -1,8 +1,8 @@
 import './App.css';
-import PortfolioUI from './components/PortfolioUI';
+import Portfolio from './components/Portfolio';
 
 function App() {
-  return <PortfolioUI name="Olle"/>;
+  return <Portfolio />;
 }
 
 export default App;
