@@ -3,7 +3,7 @@ import React from 'react';
 export default class Job extends React.Component {
     render() {
         return(
-            <div className="my-3">
+            <div className="mt-2 p-2 bg-botdahl-500 rounded-xl shadow-xl">
                 <div className="text-sm text-black">
                     {this.props.year}
                 </div>
