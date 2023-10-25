@@ -1,14 +1,26 @@
 import React from 'react';
 import ProfileBanner from './Profile/ProfileBanner';
 import ShortInfo from './Info/ShortInfo';
+import Education from './Education/Education';
+import Experience from './Experience/Experience';
 
 export default class Portfolio extends React.Component {
     render() {
         return (
-            <div className="p-4 min-h-screen bg-zinc-400">
-                <div className="grid grid-cols-1 gap-4">
-                    <ProfileBanner />
-                    <ShortInfo />
+            <div className="p-6 min-h-screen bg-botdahl-100">
+                <div className="grid grid-cols-1 xl:grid-cols-3 xl:gap-6">
+
+                    {/* 1/3 of the screen when width is more than 1280px */}
+                    <div className="col-span-1">
+                        <ProfileBanner />
+                        <ShortInfo />
+                        <Education />
+                        <Experience />
+                    </div>
+
+                    {/*  2/3 of the screen when width is more than 1280px */}
+                    <div className="col-span-2">
+                    </div>
                 </div>
             </div>
         );
