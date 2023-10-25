@@ -3,7 +3,7 @@ import React from 'react';
 export default class Degree extends React.Component {
     render() {
         return(
-            <div className="my-2">
+            <div className="mt-2 bg-botdahl-500 rounded-xl shadow-lg p-2">
                 <div className="text-sm text-black">
                     {this.props.year}
                 </div>
