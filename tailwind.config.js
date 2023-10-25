@@ -6,10 +6,18 @@ module.exports = {
   theme: {
     extend: {
         colors: {
-            'botdahl-darkslate': '#27374d',
-            'botdahl-slate': '#526d82',
-            'botdahl-lightslate': '#9db2bf',
-            'botdahl-brightslate': '#dde6ed',
+            botdahl: {
+                100: '#17202A',
+                200: '#1C2833',
+                300: '#212F3D',
+                400: '#273746',
+                500: '#2C3E50',
+                600: '#566573',
+                700: '#808B96',
+                800: '#ABB2B9',
+                900: '#D5D8DC',
+                1000: '#EAECEE',
+            },
         },
     },
   },
