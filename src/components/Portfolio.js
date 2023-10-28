@@ -4,7 +4,6 @@ import ShortInfo from './Info/ShortInfo';
 import Education from './Education/Education';
 import Experience from './Experience/Experience';
 import Projects from './Projects/Projects';
-import ThemeSwitcher from './ThemeSwitcher/ThemeSwitcher';
 
 
 export default class Portfolio extends React.Component {
