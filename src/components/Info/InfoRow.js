@@ -3,16 +3,16 @@ import React from 'react';
 export default class InfoRow extends React.Component {
     render() {
         return(
-            <div className="grid grid-cols-2 mx-4 shadow-md text-sm">
-                <div className="text-left pl-4 bg-botdahl-700 text-sm text-botdahl-200 rounded-l p-1">
-                    {this.props.title}
-                </div>
-                <div className="text-right pr-4 bg-botdahl-600 text-sm text-botdahl-100 rounded-r p-1">
-                    <a href={this.props.link} target="_blank" rel="noreferrer">
+            <a href={this.props.link} target="_blank" rel="noreferrer">
+                <div className="p-2 text-center bg-botdahl-500 rounded-xl shadow-xl transition hover:scale-[1.03] hover:bg-botdahl-100 duration-200">
+                    <div className="font-bold text-sm text-botdahl-800 rounded-l p-1">
+                        {this.props.title}
+                    </div>
+                    <div className="text-sm text-botdahl-800">
                         {this.props.answer}
-                    </a>
+                    </div>
                 </div>
-            </div>
+            </a>
         );
     }
 }
