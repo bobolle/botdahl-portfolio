@@ -10,12 +10,11 @@ import ThemeSwitcher from './ThemeSwitcher/ThemeSwitcher';
 export default class Portfolio extends React.Component {
     render() {
         return (
-            <div className="p-6 min-h-screen dark:bg-botdahl-100 bg-white">
+            <div className="p-6 min-h-screen bg-botdahl-100">
                 <div className="grid grid-cols-1 xl:grid-cols-3 xl:gap-6 space-y-3 xl:space-y-0">
 
                     {/* 1/3 of the screen when width is more than 1280px */}
                     <div className="col-span-1 space-y-3">
-                        <ThemeSwitcher />
                         <ProfileBanner />
                         <ShortInfo />
                         <Education />
