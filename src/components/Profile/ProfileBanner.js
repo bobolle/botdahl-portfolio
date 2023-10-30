@@ -12,7 +12,7 @@ export default class ProfileBanner extends React.Component {
                 </div>
 
                 <button className="flex mx-auto my-2 bg-botdahl-600 transition duration-200 hover:scale-105 hover:bg-botdahl-300 hover:text-botdahl-800 text-botdahl-100 text-sm rounded">
-                    <a href="../assets/resume.txt">
+                    <a href={this.props.link} download="Olle_Dahlström_CV.pdf">
                         <p className="p-1">DOWNLOAD RESUME</p>
                     </a>
                 </button>

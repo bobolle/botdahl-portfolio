@@ -4,6 +4,7 @@ import ShortInfo from './Info/ShortInfo';
 import Education from './Education/Education';
 import Experience from './Experience/Experience';
 import Projects from './Projects/Projects';
+import Resume from '../assets/resume.txt';
 
 
 export default class Portfolio extends React.Component {
@@ -14,7 +15,7 @@ export default class Portfolio extends React.Component {
 
                     {/* 1/3 of the screen when width is more than 1280px */}
                     <div className="col-span-1 space-y-3">
-                        <ProfileBanner />
+                        <ProfileBanner link={Resume}/>
                         <ShortInfo />
                         <Education />
                         <Experience />
