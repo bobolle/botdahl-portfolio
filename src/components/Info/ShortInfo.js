@@ -4,7 +4,7 @@ import InfoRow from './InfoRow';
 export default class ShortInfo extends React.Component {
     render() {
         return(
-            <div className="p-4 bg-botdahl-300 rounded-xl shadow-xl">
+            <div className="p-4 bg-accent rounded-xl shadow-xl">
 
                 <div className="grid grid-cols-2 gap-4">
                     <InfoRow title="Plats" answer="Södertälje, Sweden" link="" />

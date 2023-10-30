@@ -7,18 +7,12 @@ module.exports = {
   theme: {
     extend: {
         colors: {
-            botdahl: {
-                100: '#17202A',
-                200: '#1C2833',
-                300: '#212F3D',
-                400: '#273746',
-                500: '#2C3E50',
-                600: '#566573',
-                700: '#808B96',
-                800: '#ABB2B9',
-                900: '#D5D8DC',
-                1000: '#EAECEE',
-            },
+            primary: '#e3820b',
+            secondary: '#e39c22',
+            accent: '#151515',
+            neutral: '#f5eec1',
+            primarybg: '#111111',
+            secondarybg: '#222222',
         },
     },
   },
