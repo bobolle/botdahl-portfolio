@@ -4,9 +4,9 @@ import Degree from './Degree';
 export default class Education extends React.Component {
     render() {
         return(
-            <div className="bg-accent rounded-xl shadow-lg p-4">
+            <div className="p-4 bg-accent rounded-xl shadow-lg">
                 <h5 className="text-primary font-bold text-lg">Utbildning</h5>
-                <div className="text-base-content p-2">
+                <div className="p-2">
 
                     {/* List of education */}
                     <Degree year="2015-2018" degree="Teknik med inriktning IT" school="Rönninge gymnasium" />

@@ -3,7 +3,7 @@ import React from 'react';
 export default class ProfileBanner extends React.Component {
     render() {
         return(
-            <div className="bg-secondarybg rounded-xl shadow-xl p-1">
+            <div className="bg-secondarybg rounded-xl shadow-xl p-4">
 
                 <h2 className="p-4 text-center font-bold text-5xl text-primary">Olle Dahlström</h2>
 

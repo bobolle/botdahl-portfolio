@@ -6,7 +6,7 @@ export default class Experience extends React.Component {
         return(
             <div className="bg-accent rounded-xl shadow-lg p-4">
                 <h5 className="text-primary font-bold text-lg">Erfarenhet</h5>
-                <div className="text-base-content p-2">
+                <div className="p-2">
 
                     {/* List of education */}
                     <Job year="2018-2019" job="Praktik på webbyrå" description="10 veckor av praktik på webbyrån Pija." />
