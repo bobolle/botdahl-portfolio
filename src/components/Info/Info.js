@@ -1,7 +1,7 @@
 import React from 'react';
 import InfoRow from './InfoRow';
 
-export default class ShortInfo extends React.Component {
+export default class Info extends React.Component {
     render() {
         return(
             <div className="p-4 bg-accent rounded-xl shadow-lg">
