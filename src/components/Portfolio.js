@@ -11,10 +11,10 @@ export default class Portfolio extends React.Component {
     render() {
         return (
             <div className="p-6 min-h-screen bg-primarybg">
-                <div className="grid grid-cols-1 xl:grid-cols-3 xl:gap-6 space-y-3 xl:space-y-0">
+                <div className="grid grid-cols-1 xl:grid-cols-3 xl:gap-6 space-y-6 xl:space-y-0">
 
                     {/* 1/3 of the screen when width is more than 1280px */}
-                    <div className="col-span-1 space-y-3">
+                    <div className="col-span-1 space-y-6">
                         <ProfileBanner link={Resume}/>
                         <ShortInfo />
                         <Education />
@@ -22,7 +22,7 @@ export default class Portfolio extends React.Component {
                     </div>
 
                     {/*  2/3 of the screen when width is more than 1280px */}
-                    <div className="col-span-2 space-y-3">
+                    <div className="col-span-2 space-y-6">
                         <Projects />
                     </div>
                 </div>
