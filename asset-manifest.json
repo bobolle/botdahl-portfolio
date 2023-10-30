@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/botdahl-portfolio/static/css/main.a1ceed9f.css",
-    "main.js": "/botdahl-portfolio/static/js/main.6a7bacb4.js",
+    "main.css": "/botdahl-portfolio/static/css/main.556f9a73.css",
+    "main.js": "/botdahl-portfolio/static/js/main.f803c439.js",
     "static/js/787.883faed3.chunk.js": "/botdahl-portfolio/static/js/787.883faed3.chunk.js",
     "index.html": "/botdahl-portfolio/index.html",
-    "main.a1ceed9f.css.map": "/botdahl-portfolio/static/css/main.a1ceed9f.css.map",
-    "main.6a7bacb4.js.map": "/botdahl-portfolio/static/js/main.6a7bacb4.js.map",
+    "static/media/resume.txt": "/botdahl-portfolio/static/media/resume.043758a56dcdbbec3cd8.txt",
+    "main.556f9a73.css.map": "/botdahl-portfolio/static/css/main.556f9a73.css.map",
+    "main.f803c439.js.map": "/botdahl-portfolio/static/js/main.f803c439.js.map",
     "787.883faed3.chunk.js.map": "/botdahl-portfolio/static/js/787.883faed3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1ceed9f.css",
-    "static/js/main.6a7bacb4.js"
+    "static/css/main.556f9a73.css",
+    "static/js/main.f803c439.js"
   ]
 }
