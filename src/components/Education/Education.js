@@ -5,7 +5,7 @@ export default class Education extends React.Component {
     render() {
         return(
             <div className="bg-botdahl-300 rounded-xl shadow-xl p-4">
-                <h5 className="text-botdahl-800 font-bold text-lg">Education</h5>
+                <h5 className="text-botdahl-800 font-bold text-lg">Utbildning</h5>
                 <div className="text-base-content p-2">
 
                     {/* List of education */}
