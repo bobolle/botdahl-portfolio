@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ProfileBanner extends React.Component {
+export default class Profile extends React.Component {
     render() {
         return(
             <div className="bg-secondarybg rounded-xl shadow-xl p-4">
@@ -13,7 +13,7 @@ export default class ProfileBanner extends React.Component {
 
                 <button className="flex mx-auto my-2 bg-secondary transition duration-200 hover:scale-105 text-neutral text-sm rounded">
                     <a href={this.props.link} download="Olle_Dahlström_CV.pdf">
-                        <p className="p-1">DOWNLOAD RESUME</p>
+                        <p className="p-1 mx-4">Download Resume</p>
                     </a>
                 </button>
 
