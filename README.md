@@ -1,4 +1,4 @@
-# Portfolio using React and Tailwind for github pages
+# Portfolio using React, Tailwind and gh-pages for github pages
 
 Personal project to create a portfolio for myself.
 
