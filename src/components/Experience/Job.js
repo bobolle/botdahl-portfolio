@@ -4,7 +4,7 @@ export default class Job extends React.Component {
     render() {
         return(
             <div className="mt-2 p-2 bg-secondarybg rounded-xl shadow-xl">
-                <div className="text-sm text-secondary">
+                <div className="text-sm text-neutral">
                     {this.props.year}
                 </div>
 
@@ -12,7 +12,7 @@ export default class Job extends React.Component {
                     {this.props.job}
                 </div>
 
-                <div className="text-md text-neutral">
+                <div className="text-md text-secondary">
                     {this.props.description}
                 </div>
             </div>
