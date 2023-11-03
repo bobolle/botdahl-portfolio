@@ -9,7 +9,7 @@ export default class InfoRow extends React.Component {
                             <div className="mr-2 align-middle inline-block text-primary">{this.props.icon}</div>
                             <div className="align-middle inline-block">
                                 <div className="font-bold text-primary">{this.props.title}</div>
-                                <div className="text-secondary">{this.props.description}</div>
+                                <div className="text-md text-secondary">{this.props.description}</div>
                             </div>
                         </div>
                     </a>
