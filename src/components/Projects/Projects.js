@@ -30,7 +30,7 @@ export default class Projects extends React.Component {
                 <div className="grid grid-cols-2 gap-4 text-base-content p-2">
                    {this.state.projects.map((project) => (
                         <Project 
-                           id={project.id}
+                           key={project.id}
                            name={project.name}
                            description={project.description}
                            link={project.html_url}
