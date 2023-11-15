@@ -4,7 +4,7 @@ import Info from './Info/Info';
 import Education from './Education/Education';
 import Experience from './Experience/Experience';
 import Projects from './Projects/Projects';
-import Resume from '../assets/resume.txt';
+import Resume from '../assets/CV_Olle_Dahlstrom.pdf';
 
 
 export default class Portfolio extends React.Component {
