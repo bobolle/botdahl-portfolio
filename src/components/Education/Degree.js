@@ -46,7 +46,7 @@ export default class Degree extends React.Component {
 					{ this.props.school }
 				</div>
 
-				<button onClick={() => this.toggleHidden()} className="flex mx-auto p-1 text-sm bg-secondary text-neutral rounded">
+				<button onClick={() => this.toggleHidden()} className="flex mx-auto p-1 my-1 text-sm bg-secondary text-neutral rounded">
 					Läs mer
 				</button>
 				{ !this.state.isHidden && (
