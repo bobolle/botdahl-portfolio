@@ -1,6 +1,6 @@
 # Portfolio using React, Tailwind and gh-pages for github pages
 
-Personal project to create a portfolio for myself.
+Personal project for [Botdahl Portfolio](https://botdahl.github.io/botdahl-portfolio/).
 
 ## local setup
 
