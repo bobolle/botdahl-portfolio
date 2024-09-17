@@ -41,5 +41,27 @@ export const educationData = [
 			"Interaktionsteknik",
 			"Objektorienterad programmeringsmetodik",
 		]
+	},
+	{
+		"id": 4,
+		"degree": "IOT- och embeddedutvecklare",
+		"year": "2024-",
+		"school": "Jensen Yrkeshögskola",
+		"description": "Pågående utbildning",
+		"courses": [
+			"Självledarskap - att leda sig själv, grund",
+			"Programmering med Python",
+			"Programmering med C och C++",
+			"Projektmetodik och arbetsmetoder",
+			"Självledarskap - att leda sig själv",
+			"IoT-arkitektur och datakommunikation",
+			"Programmering av inbyggda system",
+			"Dataplattformar, dataintegration och molnlösningar",
+			"Projekt 1",
+			"LIA 1",
+			"Projekt 2",
+			"LIA 2",
+			"Examensarbete",
+		]
 	}
 ];
