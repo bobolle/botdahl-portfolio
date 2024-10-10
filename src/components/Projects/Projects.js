@@ -14,7 +14,7 @@ export default class Projects extends React.Component {
     }
 
     handleProjectInfo() {
-        fetch('https://api.github.com/users/botdahl/repos')
+        fetch('https://api.github.com/users/bobolle/repos')
         .then((response) => (response.json()))
         .then((data) => {
             this.setState({
