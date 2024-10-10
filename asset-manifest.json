@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/botdahl-portfolio/static/css/main.ed4eae1a.css",
-    "main.js": "/botdahl-portfolio/static/js/main.84733484.js",
+    "main.js": "/botdahl-portfolio/static/js/main.5f41cdf9.js",
     "static/media/CV_Olle_Dahlstrom.pdf": "/botdahl-portfolio/static/media/CV_Olle_Dahlstrom.d7ac83f1be52de6202fc.pdf",
     "index.html": "/botdahl-portfolio/index.html",
     "main.ed4eae1a.css.map": "/botdahl-portfolio/static/css/main.ed4eae1a.css.map",
-    "main.84733484.js.map": "/botdahl-portfolio/static/js/main.84733484.js.map"
+    "main.5f41cdf9.js.map": "/botdahl-portfolio/static/js/main.5f41cdf9.js.map"
   },
   "entrypoints": [
     "static/css/main.ed4eae1a.css",
-    "static/js/main.84733484.js"
+    "static/js/main.5f41cdf9.js"
   ]
 }
